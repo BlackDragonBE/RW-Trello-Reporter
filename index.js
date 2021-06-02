@@ -9,7 +9,7 @@ var trello = new Trello("fad26c70532bb6c7507c1f9f4a428705", "b2d4b656c85a1bd2c8f
 var boardId = "gTwaCQGM";
 
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.send("Hello World! Fools!");
 });
 
 app.listen(port, () => {
