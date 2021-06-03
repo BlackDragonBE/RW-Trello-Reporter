@@ -20,7 +20,6 @@ app.get("/", (req, res) => {
   res.write('<div>Whoop</div>');
   res.write('<a class="button">Button</a>');
   res.write('<a class="button">Button</a>');
-  res.write('<a class="button">Button</a>');
   res.end();
 });
 
