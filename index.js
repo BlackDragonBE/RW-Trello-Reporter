@@ -8,6 +8,8 @@ const port = process.env.PORT || 3000;
 var trello = new Trello("fad26c70532bb6c7507c1f9f4a428705", "b2d4b656c85a1bd2c8fff4179bd49a83c5333a8962f03eebd996368f6453d4df");
 var boardId = "gTwaCQGM";
 
+app.use(express.static("public"));
+
 app.get("/", (req, res) => {
   res.send("Hello World! Fools!");
 });

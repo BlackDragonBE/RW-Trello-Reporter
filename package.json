@@ -4,6 +4,7 @@
   "description": "Parses RW Trello boards and creates reports.",
   "main": "index.js",
   "dependencies": {
+    "bulma": "^0.9.2",
     "express": "^4.17.1",
     "trello": "^0.10.0"
   },
@@ -11,7 +12,7 @@
     "nodemon": "^2.0.7"
   },
   "scripts": {
-    "start":"nodemon index.js"
+    "start": "nodemon index.js"
   },
   "author": "@BlackDragonBE (Eric Van de Kerckhove)",
   "license": "ISC"
